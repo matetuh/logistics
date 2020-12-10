@@ -6,8 +6,8 @@
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" class="href">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
         <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="css/style.css" type="text/css">
         
         <title>ARM Logistics</title>
@@ -50,15 +50,15 @@
                 <div class="header__animate-box">
                     <div class="ball"></div>
                 </div>
-                <span class="header__scroll aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">
+                <span class="header__scroll aos-init aos-animate" data-aos="slide-down" data-aos-easing="ease" data-aos-delay="800">
                     Scroll down
                     <br>
-                    <i class="chevron-down-outline"></i>
+                    <ion-icon name="chevron-down-outline" onclick="autoScrollTo('about');"></ion-icon>
                 </span>
             </div>
         </header>
 
-        <section class="section__main">
+        <section id="about" class="section__main">
             <div class="row">
                 <div class="col-1-of-3">
                     <div class="card">hello</div>
@@ -71,12 +71,11 @@
                 </div>
             </div>
         </section>
-    
+        
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+        <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init();
-        </script>
+        <script src="js/script.js"></script>  
     </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/script.js"></script>  
 </html>

@@ -1,4 +1,8 @@
-//BACKGROUND ANIMATION - HEADER
+//init AOS
+AOS.init({
+  easing: 'ease-out-back',
+  duration: 1000
+});
 
 // Some random colors
 const colors = ["#A8DADC", "#457B9D", "#1D3557", "#E63946"];
@@ -41,4 +45,12 @@ let anim = el.animate(
 }
 );
 });
+
+//scroll function
+function autoScrollTo(el) {
+  var top = $("#" + el).offset().top;
+  $('html, body').animate({
+      scrollTop: top
+  }, 1200);
+};
 
