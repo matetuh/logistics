@@ -48,9 +48,9 @@ let anim = el.animate(
 
 //scroll function
 function autoScrollTo(el) {
-  var top = $("#" + el).offset().top;
+  var top = $(el).offset().top;
   $('html, body').animate({
-      scrollTop: top
+      scrollTop: top-100
   }, 1200);
 };
 

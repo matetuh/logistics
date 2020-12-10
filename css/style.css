@@ -213,10 +213,11 @@ body {
 
 .card {
   display: block;
-  width: 75%;
-  margin: 25% auto;
+  width: 90%;
+  margin: 30% auto;
   height: 50vh;
-  background-color: red; }
+  background-color: #F1FAEE;
+  border-radius: 1rem; }
 
 .row {
   max-width: 114rem;
