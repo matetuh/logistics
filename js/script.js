@@ -1,14 +1,5 @@
 //BACKGROUND ANIMATION - HEADER
 
-
-
-CSS JS 
-
-Result
-Skip Results Iframe
-
-EDIT ON
-
 // Some random colors
 const colors = ["#3CC157", "#2AA7FF", "#1B1B1B", "#FCBC0F", "#F85F36"];
 
@@ -39,7 +30,7 @@ y: Math.random() * 12
 let anim = el.animate(
 [
   { transform: "translate(0, 0)" },
-  { transform: `translate(${to.x}rem, ${to.y}rem)` }
+  { transform: `translate(${to.x-15}rem, ${to.y-15}rem)` }
 ],
 {
   duration: (Math.random() + 1) * 2000, // random duration

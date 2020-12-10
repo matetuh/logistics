@@ -1,5 +1,7 @@
 .header {
+    position: relative;
     height: 100vh;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-image: 
@@ -10,10 +12,15 @@
         url(/img/header.jpg);
     overflow: hidden;
     
+    &__animate-box {
+        overflow: hidden;
+    }
+
     &--text-box {
-        margin-top: 20rem;
+        margin-top: 45%;
     }
     &--avatar {
+        z-index: 10;
         &-img {
             margin-top: 10rem;
             width: 100%;

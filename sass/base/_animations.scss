@@ -45,11 +45,13 @@
         transform: translateY(0);
     }
 }
-
-//BACKGROUND ANIMATION - HEADER
-
+ 
 .ball {
+    z-index: 9;
     position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: -20rem;
     border-radius: 100%;
-    opacity: 0.7;
+    opacity: 0.5;
   }
