@@ -19,10 +19,11 @@ body {
         text-align: center;
         color: $color-main-1;
         display: block;
-        font-size: 6rem;
+        font-size: 10rem;
         font-weight: 900;
-        letter-spacing: 4rem;
-        margin-bottom: 1rem;
+        letter-spacing: 5rem;
+        margin-bottom: 0rem;
+        margin-left: -3rem;
 
         animation: moveDown .5s ease-in;
         animation-delay: 1s;
@@ -33,6 +34,7 @@ body {
         text-align: center;
         display: block;
         font-size: 3rem;
+        margin-bottom: 1rem;
         font-weight: 400;
         letter-spacing: 1rem;
 
@@ -43,7 +45,7 @@ body {
             font-weight: 700;
             letter-spacing: 1rem;
             color: $color-main-5;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
 
             animation: moveInRight .5s ease-in;
             animation-delay: 1s;

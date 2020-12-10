@@ -2,7 +2,7 @@
     position: relative;
     height: 100vh;
     width: 100%;
-    
+    z-index: 10;
     overflow: hidden;
 
     &__background {
@@ -23,19 +23,19 @@
     }
     
     &__animate-box {
-        
         overflow: hidden;
     }
 
     &--text-box {
-        z-index: 10;
+        position: relative;
+        z-index: 11;
         margin-top: 45%;
     }
     &--avatar {
         position: absolute;
         z-index: 10;
         &-img {
-            margin-top: 15%;
+            margin-top: 25%;
             margin-left: 5%;
             width: 60%;
             height: auto;

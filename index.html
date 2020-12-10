@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" class="href">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="css/style.css" type="text/css">
         
         <title>ARM Logistics</title>
@@ -32,7 +33,7 @@
                     <div class="col-1-of-2">
                         <div class="header--text-box">
                             <h1>
-                                <span class="heading__main">Cześć!</span>
+                                <span class="heading__main">Witaj!</span>
                                 <span class="heading__sec">Nazywam się</span>
                                 <span class="heading__sec-name">Michał Kuzaj</span>
                                 <span class="heading__sub">Jestem międzynarodowym spedytorem!</span>
@@ -42,13 +43,18 @@
                     </div>
                     <div class="col-1-of-2">
                         <div class="header--avatar">
-                            <img class="header--avatar-img" src="/img/avatar22.png" alt="Avatar">
+                            <img class="header--avatar-img" src="/img/avatar.png" alt="Avatar">
                         </div>
                     </div>
                 </div>
                 <div class="header__animate-box">
                     <div class="ball"></div>
                 </div>
+                <span class="header__scroll aos-init aos-animate" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="800">
+                    Scroll down
+                    <br>
+                    <i class="chevron-down-outline"></i>
+                </span>
             </div>
         </header>
 
@@ -65,8 +71,12 @@
                 </div>
             </div>
         </section>
+    
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     </body>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/script.js"></script>  
 </html>
