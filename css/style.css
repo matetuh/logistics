@@ -202,10 +202,12 @@ body {
   .header--text-box {
     margin-top: 45%; }
   .header--avatar {
+    position: absolute;
     z-index: 10; }
     .header--avatar-img {
-      margin-top: 10rem;
-      width: 100%;
+      margin-top: 10%;
+      margin-left: 5%;
+      width: 60%;
       height: auto;
       animation: moveDownScale .5s ease-in;
       animation-delay: 1s; }
