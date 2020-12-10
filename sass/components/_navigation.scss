@@ -29,15 +29,15 @@
                     font-size: 1.8rem;
                     font-weight: 300;
                     letter-spacing: .25rem;
-                    color: $color-main-2;
+                    color: $color-main-4;
                     text-transform: uppercase;
                     text-decoration: none;
                     padding: 1rem 2rem;
                     margin-left: 2rem;
 
                     &:hover {
-                        background-color: $color-main-3;
-                        color: $color-main-1;
+                        background-color: $color-main-4;
+                        color: $color-main-2;
                         border-radius: .5rem;
                         font-weight: 300;
                     }
