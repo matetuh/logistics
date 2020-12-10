@@ -128,12 +128,22 @@ body {
   .heading__head {
     text-transform: uppercase;
     text-align: center;
-    color: #457B9D;
+    color: #1D3557;
     display: block;
     font-size: 6rem;
     font-weight: 700;
     letter-spacing: 3rem;
     margin-top: 5rem; }
+  .heading__head2 {
+    text-align: center;
+    display: block;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    color: #457B9D;
+    margin: .5rem auto;
+    animation: moveInRight .5s ease-in;
+    animation-delay: 1s; }
 
 .paragraph {
   font-size: 1.5rem;

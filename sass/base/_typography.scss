@@ -79,12 +79,26 @@ body {
     &__head {
         text-transform: uppercase;
         text-align: center;
-        color: $color-main-4;
+        color: $color-main-5;
         display: block;
         font-size: 6rem;
         font-weight: 700;
         letter-spacing: 3rem;
         margin-top: 5rem;
+    }
+
+    &__head2 {
+        text-align: center;
+        display: block;
+        font-size: 4rem;
+        font-weight: 700;
+        letter-spacing: 1rem;
+        color: $color-main-4;
+        margin: .5rem auto;
+
+
+        animation: moveInRight .5s ease-in;
+        animation-delay: 1s;
     }
     
 }
