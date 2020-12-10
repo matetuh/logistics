@@ -148,6 +148,41 @@ body {
             border-radius: 2rem;
             font-weight: 500; }
 
+.btn {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  text-align: center;
+  color: #F1FAEE;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  font-size: 2em;
+  font-weight: 300;
+  text-transform: uppercase; }
+  .btn-red {
+    background: #E63946; }
+    .btn-red:hover {
+      background: #db1c2a;
+      transition: all 0.3s ease; }
+    .btn-red:active {
+      background: #8e121b; }
+  .btn-blue-light {
+    background: #A8DADC; }
+    .btn-blue-light:hover {
+      background: #8bced0;
+      transition: all 0.3s ease; }
+    .btn-blue-light:active {
+      background: #4db3b7; }
+  .btn-blue-dark {
+    background: #1D3557; }
+    .btn-blue-dark:hover {
+      background: #132238;
+      transition: all 0.3s ease; }
+    .btn-blue-dark:active {
+      background: black; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
