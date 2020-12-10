@@ -14,7 +14,7 @@ body {
 @keyframes moveInRight {
   0% {
     opacity: 0;
-    transform: translateX(-10rem); }
+    transform: translateX(-5rem); }
   100% {
     opacity: 1;
     transform: translateX(0); } }
@@ -125,6 +125,22 @@ body {
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: 1rem; }
+  .heading__head {
+    text-transform: uppercase;
+    text-align: center;
+    color: #457B9D;
+    display: block;
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: 3rem;
+    margin-top: 5rem; }
+
+.paragraph {
+  font-size: 1.5rem;
+  color: #457B9D;
+  text-align: justify;
+  display: inline-block;
+  margin: 2rem; }
 
 #nav {
   display: block;
@@ -212,12 +228,29 @@ body {
       background: black; }
 
 .card {
+  position: relative;
   display: block;
   width: 90%;
-  margin: 30% auto;
+  margin: 20% auto;
   height: 50vh;
   background-color: #F1FAEE;
   border-radius: 1rem; }
+  .card__picture {
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 20rem; }
+    .card__picture--1 {
+      opacity: .9;
+      background-image: url(/img/card1.jpg);
+      background-blend-mode: screen;
+      background-color: #1D3557;
+      background-position: center; }
+    .card__picture--2 {
+      opacity: .9;
+      background-image: url(/img/card2.jpg);
+      background-blend-mode: screen;
+      background-color: #1D3557;
+      background-position: top; }
 
 .row {
   max-width: 114rem;
@@ -301,9 +334,7 @@ body {
       margin-top: 25%;
       margin-left: 5%;
       width: 60%;
-      height: auto;
-      animation: moveDownScale .5s ease-in;
-      animation-delay: 1s; }
+      height: auto; }
 
 .section__main {
   height: auto;
