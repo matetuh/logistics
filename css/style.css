@@ -44,7 +44,7 @@ body {
     transform: translateY(0); } }
 
 .ball {
-  z-index: 9;
+  z-index: 2;
   position: absolute;
   top: 0;
   left: 0;
@@ -123,6 +123,7 @@ body {
     width: 20rem;
     height: auto; }
   .nav__box {
+    z-index: 100;
     position: absolute;
     top: 0;
     right: 0;
@@ -137,6 +138,8 @@ body {
         margin-top: 2rem; }
         .nav__box ul li a {
           font-size: 1.8rem;
+          font-weight: 300;
+          letter-spacing: .25rem;
           color: #F1FAEE;
           text-transform: uppercase;
           text-decoration: none;
@@ -145,8 +148,8 @@ body {
           .nav__box ul li a:hover {
             background-color: #A8DADC;
             color: #E63946;
-            border-radius: 2rem;
-            font-weight: 500; }
+            border-radius: .5rem;
+            font-weight: 300; }
 
 .btn {
   display: block;
@@ -235,12 +238,13 @@ body {
   .header__animate-box {
     overflow: hidden; }
   .header--text-box {
+    z-index: 10;
     margin-top: 45%; }
   .header--avatar {
     position: absolute;
     z-index: 10; }
     .header--avatar-img {
-      margin-top: 10%;
+      margin-top: 15%;
       margin-left: 5%;
       width: 60%;
       height: auto;
