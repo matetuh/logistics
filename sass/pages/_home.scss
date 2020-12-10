@@ -1,0 +1,28 @@
+.header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: 
+        linear-gradient(
+            to right bottom,
+            rgba($color-main-3,.8),
+            rgba($color-main-5,.8)),
+        url(/img/header.jpg);
+    overflow: hidden;
+    
+    &--text-box {
+        margin-top: 20rem;
+    }
+    &--avatar {
+        &-img {
+            margin-top: 10rem;
+            width: 100%;
+            height: auto;
+            //box-shadow: 1rem 2rem 4rem rgba($color-main-5, .1);
+
+            animation: moveDownScale .5s ease-in;
+            animation-delay: 1s;
+        }
+    }
+
+}
