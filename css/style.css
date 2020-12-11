@@ -279,25 +279,25 @@ body {
     height: 20rem; }
     .card__picture--1 {
       opacity: .9;
-      background-image: url(./../img/card1.jpg);
+      background-image: url(./img/card1.jpg);
       background-blend-mode: screen;
       background-color: #1D3557;
       background-position: center; }
     .card__picture--2 {
       opacity: .9;
-      background-image: url(./../img/card2.jpg);
+      background-image: url(./img/card2.jpg);
       background-blend-mode: screen;
       background-color: #1D3557;
       background-position: top; }
     .card__picture--3 {
       opacity: .9;
-      background-image: url(./../img/card3.jpg);
+      background-image: url(./img/card3.jpg);
       background-blend-mode: screen;
       background-color: #1D3557;
       background-position: center; }
     .card__picture--4 {
       opacity: .9;
-      background-image: url(./../img/card4.jpg);
+      background-image: url(./img/card4.jpg);
       background-blend-mode: screen;
       background-color: #1D3557;
       background-position: top; }
@@ -357,7 +357,7 @@ body {
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to right bottom, black, black), url(./../img/header.jpg);
+    background-image: linear-gradient(to right bottom, black, black), url(./img/header.jpg);
     background-blend-mode: saturation; }
   .header__animate-box {
     overflow: hidden; }
