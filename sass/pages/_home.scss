@@ -35,6 +35,9 @@
         margin-top: 4rem;
 
         ion-icon {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: -3rem;
             animation: pulse 2s infinite;
             color: $color-main-1
         }
@@ -67,5 +70,61 @@
 
 .section__main {
     height: auto;
-    background-color: white;
+    position: relative;
+
+    &--background-1 {
+        position: absolute;
+        top: 30rem;
+        left: 145rem;
+        width: 40rem;
+        height: 20rem;
+        z-index: -1;
+        background-image: radial-gradient($color-main-5 20%, transparent 20%),
+                        radial-gradient($color-main-5 20%, transparent 20%);
+        background-color: $color-white;
+        background-position: 0 0, 5rem 5rem;
+        background-size: 5rem 5rem;
+    }
+
+    &--background-2 {
+        position: absolute;
+        top: 12rem;
+        left: 30rem;
+        width: 20rem;
+        height: 40rem;
+        z-index: -1;
+        background-image: radial-gradient($color-main-5 20%, transparent 20%),
+                        radial-gradient($color-main-5 20%, transparent 20%);
+        background-color: $color-white;
+        background-position: 0 0, 5rem 5rem;
+        background-size: 5rem 5rem;
+    }
+
+    &--background-3 {
+        position: absolute;
+        top: 72.5rem;
+        left: 30rem;
+        width: 40rem;
+        height: 20rem;
+        z-index: -1;
+        background-image: radial-gradient($color-main-5 20%, transparent 20%),
+                        radial-gradient($color-main-5 20%, transparent 20%);
+        background-color: $color-white;
+        background-position: 0 0, 5rem 5rem;
+        background-size: 5rem 5rem;
+    }
+
+    &--background-4 {
+        position: absolute;
+        top: 80rem;
+        left: 140rem;
+        width: 20rem;
+        height: 40rem;
+        z-index: -1;
+        background-image: radial-gradient($color-main-5 20%, transparent 20%),
+                        radial-gradient($color-main-5 20%, transparent 20%);
+        background-color: $color-white;
+        background-position: 0 0, 5rem 5rem;
+        background-size: 5rem 5rem;
+    }
 }

@@ -2,7 +2,7 @@
     position: relative;
     display: block;
     width: 90%;
-    margin: 20% auto;
+    margin: 5% auto;
     height: 50vh;
     background-color: $color-main-2;
     border-radius: 1rem;
@@ -25,6 +25,24 @@
             opacity: .9;
             background-image: 
                 url(/img/card2.jpg);
+            background-blend-mode: screen;
+            background-color: $color-main-5;
+            background-position: top;
+        }
+
+        &--3 {
+            opacity: .9;
+            background-image: 
+                url(/img/card3.jpg);
+            background-blend-mode: screen;
+            background-color: $color-main-5;
+            background-position: center;
+        }
+
+        &--4 {
+            opacity: .9;
+            background-image: 
+                url(/img/card4.jpg);
             background-blend-mode: screen;
             background-color: $color-main-5;
             background-position: top;
