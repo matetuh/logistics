@@ -15,7 +15,7 @@
         &--1 {
             opacity: .9;
             background-image: 
-                url(./img/card1.jpg);
+                url(../img/card1.jpg);
             background-blend-mode: screen;
             background-color: $color-main-5;
             background-position: center;
@@ -24,7 +24,7 @@
         &--2 {
             opacity: .9;
             background-image: 
-                url(./img/card2.jpg);
+                url(../img/card2.jpg);
             background-blend-mode: screen;
             background-color: $color-main-5;
             background-position: top;
@@ -33,7 +33,7 @@
         &--3 {
             opacity: .9;
             background-image: 
-                url(./img/card3.jpg);
+                url(../img/card3.jpg);
             background-blend-mode: screen;
             background-color: $color-main-5;
             background-position: center;
@@ -42,7 +42,7 @@
         &--4 {
             opacity: .9;
             background-image: 
-                url(./img/card4.jpg);
+                url(../img/card4.jpg);
             background-blend-mode: screen;
             background-color: $color-main-5;
             background-position: top;
