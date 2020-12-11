@@ -1,3 +1,11 @@
+
+//loading animation
+$(document).ready(function() {
+  $('.js--loader').removeClass('loader');
+  $('.js--loader__box').removeClass('loader__box');
+  $(window).load()
+});
+
 //init AOS
 AOS.init({
   easing: 'ease-out-back',
