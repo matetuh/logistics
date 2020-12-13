@@ -1,3 +1,15 @@
+window.onload = clearInputs;
+
+function clearInputs() {
+    //inputs 
+    document.getElementsByClassName("form-email")[0].value = "";
+    document.getElementsByClassName("form-header")[0].value = ""; 
+    document.getElementsByClassName("form-person")[0].value = "";
+    document.getElementsByClassName("form-start")[0].value = "";
+    document.getElementsByClassName("form-aim")[0].value = "";
+    document.getElementsByClassName("form-body")[0].value = "";
+}
+
 function sendEmail() {
     //inputs 
     var from = document.getElementsByClassName("form-email")[0].value; 

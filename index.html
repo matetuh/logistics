@@ -3,13 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" class="href">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
         <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        
+
         <title>ARM Logistics</title>
     </head>
 
@@ -153,29 +155,23 @@
                         &#8594; Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus veniam assumenda velit dolore, a placeat nihil, nobis odit voluptatum in tempore iste autem consequatur possimus suscipit! Praesentium officia nesciunt quos!
                     </div>
                     <div class="form-box">
-                        <div class="form-group">
-                            <span>START</span>
-                            <input class="form-field form-start" type="text" placeholder="np. WARSZAWA">
+                        <div class="input-field">
+                            <input placeholder="Start localization" id="first_name" type="text" class="form-field form-start">
                         </div>
-                        <div class="form-group">
-                            <span>CEL</span>
-                            <input class="form-field form-aim" type="text" placeholder="np. KRAKÓW ">
+                        <div class="input-field">
+                            <input placeholder="Aim localization" type="text" class="form-field form-aim">
                         </div>
-                        <div class="form-group">
-                            <span>OSOBA</span>
-                            <input class="form-field form-person" type="text" placeholder="np. MICHAŁ KUZAJ">
+                        <div class="input-field">
+                            <input placeholder="Name"  type="text" class="form-field form-person">
                         </div>
-                        <div class="form-group">
-                            <span>E-MAIL</span>
-                            <input class="form-field form-email" type="text" placeholder="np. ARM@gmail.com">
+                        <div class="input-field">
+                            <input placeholder="Email"class="form-field form-email">
+                            </div>
+                        <div class="input-field">
+                            <input placeholder="Topic" type="text" class="form-field form-header">
                         </div>
-                        <div class="form-group">
-                            <span>TEMAT</span>
-                            <input class="form-field form-header" type="text" placeholder="np. Wycena">
-                        </div>
-                        <div class="form-group">
-                            <span>WIADOMOŚĆ</span>
-                            <input class="form-field form-body" type="text" placeholder="np. Witam! Proszę o wycenę!">
+                        <div class="input-field">
+                            <input placeholder="Message" type="text" class="form-field form-body">
                         </div>
                         <form method="post">
                             <input class="btn btn-red" type="button" value="Wyślij &#8594" onclick="sendEmail()"/>
@@ -192,5 +188,6 @@
         <script src="https://smtpjs.com/v3/smtp.js"></script>  
         <script src="js/index.js"></script> 
         <script src="js/script.js"></script>  
+ 
     </body>
 </html>

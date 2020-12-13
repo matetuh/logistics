@@ -163,61 +163,26 @@ body {
 .margin-big {
   margin: 0 25%; }
 
-.form-field {
-  display: block;
-  width: 100%;
-  padding: 8px 16px;
-  line-height: 25px;
-  font-size: 14px;
-  font-weight: 500;
-  font-family: inherit;
-  border-radius: 6px;
-  -webkit-appearance: none;
-  color: #457B9D;
-  border: 1px solid #A8DADC;
-  background: #fff;
-  transition: border .3s ease; }
-  .form-field::placeholder {
-    color: #457B9D; }
-  .form-field:focus {
-    outline: none;
-    border-color: #1D3557; }
-
 .form-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-35%, -10%); }
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  width: 100%; }
 
-.form-group {
-  display: flex;
+.form-field {
+  color: #1D3557;
+  display: block;
   width: 50%;
-  height: auto; }
-  .form-group > span:not(:first-child):not(:last-child),
-  .form-group .form-field:not(:first-child):not(:last-child) {
-    border-radius: 0; }
-  .form-group > span:first-child,
-  .form-group .form-field:first-child {
-    border-radius: 6px 0 0 6px; }
-  .form-group > span:last-child,
-  .form-group .form-field:last-child {
-    border-radius: 0 6px 6px 0; }
-  .form-group > span:not(:first-child),
-  .form-group .form-field:not(:first-child) {
-    margin-left: -1px; }
-  .form-group > span {
-    text-align: center;
-    padding: 8px 12px;
-    font-size: 14px;
-    line-height: 25px;
-    color: #457B9D;
-    background: #A8DADC;
-    border: 1px solid #A8DADC;
-    transition: background .3s ease, border .3s ease, color .3s ease; }
-  .form-group:focus-within > span {
-    color: #F1FAEE;
-    background: #1D3557;
-    border-color: #1D3557; }
+  margin: 0 auto;
+  height: 4.5rem;
+  padding: 0 1.6rem;
+  border: .2rem solid #ddd;
+  border-radius: .4rem;
+  font-family: inherit;
+  outline: 0;
+  transition: .2s;
+  margin-top: 1rem; }
+  .form-field:focus {
+    border: 0.2rem solid #1D3557; }
 
 #progress {
   margin: 20px;
