@@ -361,7 +361,7 @@ body {
       background-position: center; }
     .card__picture--4 {
       opacity: .9;
-      background-image: url(./img/card4.jpg);
+      background-image: url(../img/card4.jpg);
       background-blend-mode: screen;
       background-color: #1D3557;
       background-position: top; }
