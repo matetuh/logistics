@@ -12,6 +12,14 @@
         
         <title>ARM Logistics</title>
         
+        <script src="https://smtpjs.com/v3/smtp.js"></script>  
+        <script src="esprima.js"></script>
+        <script src="js-yaml.min.js"></script>
+        <script type="text/javascript">
+        var doc = jsyaml.load('greeting: hello\nname: world');
+        </script>
+        <script src="./js/index.js"></script>  
+
     </head>
 
     <body>
@@ -156,24 +164,31 @@
                     <div class="form-box">
                         <div class="form-group">
                             <span>START</span>
-                            <input class="form-field" type="text" placeholder="np. WARSZAWA">
+                            <input class="form-field form-start" type="text" placeholder="np. WARSZAWA">
                         </div>
                         <div class="form-group">
                             <span>CEL</span>
-                            <input class="form-field" type="text" placeholder="np. KRAKÓW ">
+                            <input class="form-field form-aim" type="text" placeholder="np. KRAKÓW ">
                         </div>
                         <div class="form-group">
                             <span>OSOBA</span>
-                            <input class="form-field" type="text" placeholder="np. MICHAŁ KUZAJ">
+                            <input class="form-field form-person" type="text" placeholder="np. MICHAŁ KUZAJ">
                         </div>
                         <div class="form-group">
                             <span>E-MAIL</span>
-                            <input class="form-field" type="text" placeholder="np. ARM@gmail.com">
+                            <input class="form-field form-email" type="text" placeholder="np. ARM@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <span>TEMAT</span>
+                            <input class="form-field form-header" type="text" placeholder="np. Wycena">
                         </div>
                         <div class="form-group">
                             <span>WIADOMOŚĆ</span>
-                            <input class="form-field" type="text" placeholder="np. Witam! Proszę o wycenę!">
+                            <input class="form-field form-body" type="text" placeholder="np. Witam! Proszę o wycenę!">
                         </div>
+                        <form method="post">
+                            <input class="btn btn-red" type="button" value="Wyślij &#8594" onclick="sendEmail()"/>
+                        </form> 
                     </div>
                 </div>
         </section>
