@@ -8,7 +8,7 @@ function sendEmail() {
                 "WIADOMOŚĆ: " + document.getElementsByClassName("form-body")[0].value  + "<br/>"; 
 
 	Email.send({
-    SecureToken : "1924a4dc-6676-4f71-b6d1-7d969359ea17",
+    SecureToken : "d25a9d02-79a8-4a3f-ae0c-3b089e0d6667",
 	To : 'matetuh@gmail.com',
 	From : from,
 	Subject : subject,
