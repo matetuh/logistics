@@ -293,6 +293,10 @@ body {
       transition: all 0.3s ease; }
     .btn-blue-dark:active {
       background: black; }
+  .btn-small {
+    border: none;
+    width: 30%;
+    font-weight: 100; }
 
 .card {
   position: relative;
@@ -484,3 +488,75 @@ body {
         width: 60%;
         margin-right: 40rem;
         margin-bottom: 3rem; }
+
+.section-best {
+  width: 100%;
+  height: auto; }
+  .section-best__main {
+    position: relative;
+    z-index: 5; }
+  .section-best--background {
+    position: absolute;
+    z-index: 0;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.2;
+    background-image: linear-gradient(black, black), url(../../img/card3.jpg);
+    background-size: cover;
+    background-blend-mode: saturation;
+    background-position: center; }
+
+.whyme__box {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  position: relative;
+  z-index: 2; }
+  .whyme__box--background {
+    position: absolute;
+    z-index: 0;
+    height: 80vh;
+    width: 100%;
+    opacity: 0.2;
+    background-image: linear-gradient(black, black), url(../../img/card3.jpg);
+    background-size: cover;
+    background-blend-mode: saturation;
+    background-position: center; }
+  .whyme__box--1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .whyme__box--1--img {
+      width: 60%;
+      height: auto;
+      border-radius: 100rem; }
+  .whyme__box--2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .whyme__box--2--szufl--1 {
+      display: flex;
+      justify-content: center;
+      color: #E63946;
+      margin-top: -2rem; }
+    .whyme__box--2--szufl--2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .whyme__box--2--szufl--2--1 {
+        padding: 4rem;
+        padding-left: 0; }
+        .whyme__box--2--szufl--2--1 ion-icon {
+          font-size: 5rem;
+          color: #457B9D; }
+      .whyme__box--2--szufl--2--2 {
+        display: block;
+        width: 50%;
+        height: auto;
+        text-align: center; }
+        .whyme__box--2--szufl--2--2 span {
+          color: #1D3557; }
