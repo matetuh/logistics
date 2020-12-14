@@ -38,7 +38,8 @@
             display: block;
             margin: 0 auto;
             margin-bottom: -3rem;
-            animation: pulse 2s infinite;
+            -webkit-animation: pulse 2s infinite;
+                    animation: pulse 2s infinite;
             color: $color-main-1
         }
 
@@ -173,7 +174,7 @@
         background-image: linear-gradient(
             rgba(#000, 1),
             rgba(#000, 1)),
-            url(../../img/card3.jpg);
+            url(../img/card3.jpg);
         background-size: cover;
         background-blend-mode: saturation;
         background-position: center;

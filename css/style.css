@@ -404,6 +404,7 @@ body {
       display: block;
       margin: 0 auto;
       margin-bottom: -3rem;
+      -webkit-animation: pulse 2s infinite;
       animation: pulse 2s infinite;
       color: #E63946; }
     .header__scroll:hover {
@@ -500,7 +501,7 @@ body {
     height: 80vh;
     width: 100%;
     opacity: 0.2;
-    background-image: linear-gradient(black, black), url(../../img/card3.jpg);
+    background-image: linear-gradient(black, black), url(../img/card3.jpg);
     background-size: cover;
     background-blend-mode: saturation;
     background-position: center; }
