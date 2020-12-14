@@ -11,5 +11,7 @@
   "devDependencies": {
     "node-sass": "^5.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery-circle-progress": "^1.2.2"
+  }
 }
