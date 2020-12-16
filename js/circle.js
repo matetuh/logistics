@@ -2,7 +2,7 @@ $('#circle1').circleProgress({
     value: 0.85,
     size: 120,
     fill: {
-        gradient: [" #F1FAEE", "#A8DADC" ]
+        gradient: ["#1D3557", "#E63946" ]
     },
     lineCap: "round"
 }).on('circle-animation-progress', function(event, progress, stepValue) {
@@ -13,7 +13,7 @@ $('#circle2').circleProgress({
     value: 0.75,
     size: 120,
     fill: {
-        gradient: [" #F1FAEE", "#457B9D"]
+        gradient: ["#1D3557", "#E63946"]
     },
     lineCap: "round"
 }).on('circle-animation-progress', function(event, progress, stepValue) {
@@ -24,7 +24,7 @@ $('#circle3').circleProgress({
     value: 0.50,
     size: 120,
     fill: {
-        gradient: ["#F1FAEE",  "#1D3557"]
+        gradient: ["#1D3557",  "#E63946"]
     },
     lineCap: "round"
 }).on('circle-animation-progress', function(event, progress, stepValue) {
