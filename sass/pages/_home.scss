@@ -65,13 +65,45 @@
             height: auto;
         }
     }
-
-
 }
 
+.section__about {
+    width: 100%;
+    height: 45vh;
+    background-image: linear-gradient(
+        to right bottom,
+        $color-main-3,
+        $color-main-4
+    );
+    &--box {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: center;    
+        color: $color-main-2;
+
+
+        .ion-icon--box {
+            display: block;
+            font-size: 7rem;
+            margin: 0 auto; 
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    .header__scroll{
+        margin-top: -4rem;
+    }
+
+    text-align: center;
+}
 .section__main {
     height: auto;
     position: relative;
+
+    .header__scroll{
+        margin-top: -6rem;
+    }
 
     &--background-1 {
         position: absolute;
@@ -140,6 +172,7 @@
     width: 100%;
     height: 80vh;
     display: flex;
+    position: relative;
 
     &--box {
         width: 50%;
@@ -369,7 +402,6 @@
     position: relative;
     width: 100%;
     height: 70vh;
-    background-color: red;
 
     &--background {
         position: absolute;
@@ -400,7 +432,11 @@
         &-top {
             width: 100%;
             height: 20%;
-            background-color: $color-main-1;
+            background-image: linear-gradient(
+                to right bottom,
+                $color-main-1,
+                $color-grad-1
+            );
             border-top-right-radius: 1rem;
             border-top-left-radius: 1rem;
             box-shadow: 2rem 2rem 4rem rgba($color-main-5, .5);
@@ -416,6 +452,11 @@
             width: 100%;
             height: 70%;
             background-color: $color-white;
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-main-3,1),
+                rgba($color-main-5,.5)
+            );
             border-bottom-right-radius: 1rem;
             border-bottom-left-radius: 1rem;
             box-shadow: 2rem 2rem 4rem rgba($color-main-5, .5);
@@ -431,6 +472,8 @@
 
                 li {
                     padding: .25rem;;
+                    color: $color-main-4;
+                    font-weight: 500;
                 }
                 
             }
@@ -452,7 +495,7 @@
     z-index: 10;
     width: 60%;
     height: auto;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -461,6 +504,7 @@
     border-radius: 1rem;
     overflow: hidden;
     box-shadow: 0 2rem 4rem rgba($color-main-5, .5);
+    margin: 2rem 0;
 
 
     &-header{
@@ -507,6 +551,7 @@
                         border-radius: 1rem;
                         box-shadow: 0 .25rem .5rem rgba($color-main-5, .2);
                         min-width: 35.5vw;
+                        max-width: 35.5vw;
                         min-height: 10rem;
                         margin-top: 1rem;
                     }
