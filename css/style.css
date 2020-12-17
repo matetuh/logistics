@@ -161,17 +161,16 @@ body {
   .heading__head3 {
     text-align: center;
     display: block;
-    font-size: 2rem;
-    font-weight: 500;
-    letter-spacing: .3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
     color: #E63946;
     padding-top: 1rem;
     animation: moveDown .5s ease-in;
     animation-delay: 1s; }
   .heading__head4 {
     display: block;
-    font-size: 2.5rem;
-    font-weight: 500;
+    font-size: 3rem;
+    font-weight: 700;
     color: #fff;
     padding: -2rem;
     margin: 0; }
@@ -198,6 +197,15 @@ body {
 
 .margin-big {
   margin: 0 25%; }
+
+.padding-top--medium {
+  padding-top: 2rem; }
+
+.margin-bottom--minus--big {
+  margin-bottom: -4rem; }
+
+.margin-top--minus--big {
+  margin-top: -4rem; }
 
 .margin-down--small {
   margin-bottom: 2rem; }
@@ -485,7 +493,7 @@ body {
 
 .section__about {
   width: 100%;
-  height: 45vh;
+  height: 50vh;
   background-image: linear-gradient(to right bottom, #A8DADC, #457B9D);
   text-align: center; }
   .section__about--box {
@@ -500,7 +508,7 @@ body {
       margin: 0 auto;
       margin-bottom: 1.5rem; }
   .section__about .header__scroll {
-    margin-top: -4rem; }
+    margin-top: -9.5rem; }
 
 .section__main {
   height: auto;
@@ -723,6 +731,43 @@ body {
   padding-top: 1%; }
   .section__experience--box {
     text-align: center; }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(calc(-250px * 7)); } }
+
+.section__cooperate .slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100rem; }
+  .section__cooperate .slider::before, .section__cooperate .slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2; }
+  .section__cooperate .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg); }
+  .section__cooperate .slider::before {
+    left: 0;
+    top: 0; }
+  .section__cooperate .slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14); }
+  .section__cooperate .slider .slide {
+    margin-left: 10rem;
+    height: 100px;
+    width: 250px; }
 
 .section__map {
   position: relative;
