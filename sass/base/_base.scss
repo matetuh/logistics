@@ -7,8 +7,9 @@
 }
 
 html {
+    overflow-x: hidden;
+
     font-size: 62.5%; // 1rem = 10px -> 10px/16px = 62.5%
-    
 
     @include respond(tab-port) {
         font-size: 50%; // 1rem = 8px, 8/16 = 50
