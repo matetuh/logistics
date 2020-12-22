@@ -23,6 +23,12 @@
     font-weight: 300;
     text-transform: uppercase;
 
+    @include respond(phone) {
+      width: 100%;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
     &-red {
         @include button-bg($color-main-1);
         box-shadow: 0 .25rem .5rem rgba($color-main-5, .2);
@@ -30,7 +36,7 @@
           to right bottom,
           rgba($color-main-1,1),
           rgba($color-grad-1,1)
-      );
+        );
     }
 
     &-blue-light {

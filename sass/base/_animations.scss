@@ -69,13 +69,14 @@
         transform: translate(0, 0);
     }
     50% {
-        -webkit-transform: translate(0, 10px);
-        transform: translate(0, 10px);
+        -webkit-transform: translate(0, 1rem);
+        transform: translate(0, 1rem);
     }
     100% {
         -webkit-transform: translate(0, 0);
         transform: translate(0, 0);
     }
+
 }
  
 .ball {

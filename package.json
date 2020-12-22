@@ -12,6 +12,7 @@
     "node-sass": "^5.0.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "jquery-circle-progress": "^1.2.2"
   }
 }

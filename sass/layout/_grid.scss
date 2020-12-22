@@ -6,7 +6,7 @@
         margin-bottom: $gutter-vertical;
 
         @include respond(tab-land) {
-            margin-bottom: $gutter-vertical-small;
+            margin-bottom: $gutter-vertical-big;
         }
     } 
 
