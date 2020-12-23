@@ -24,10 +24,11 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
-  @media (max-width: 37.5em) {
-    body {
-      overflow: hidden;
-      position: relative; } }
+
+@media (max-width: 37.5em) {
+  body, html {
+    overflow: hidden;
+    position: relative; } }
 
 @keyframes spin {
   0% {
@@ -1108,7 +1109,7 @@ body {
         display: none; } }
   @media (max-width: 37.5em) {
     .section__contact-card {
-      height: 130vh; } }
+      height: 140vh; } }
 
 .contact-box {
   position: absolute;
