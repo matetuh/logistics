@@ -157,7 +157,7 @@
 
         @include respond(tab-port) {
             .col-1-of-4:first-child {
-                margin-top: 3rem;
+                margin-top: 8rem;
             }
 
             .col-1-of-4:last-child {
@@ -253,6 +253,10 @@
 
     .card {
         height: 100%;
+
+        @include respond(tab-port) {
+            width: 100%;
+        }
     }
 
 
@@ -539,6 +543,9 @@
         100% { transform: translateX(calc(-250px * 7))}
     }
     
+    @include respond(tab-port) {
+        padding-top: 3rem;
+    }
     
     // Styling
     .slider {
@@ -703,7 +710,7 @@
     }
 
     @include respond(phone) {
-        height: 150vh;
+        height: 160vh;
     }
 }
 
