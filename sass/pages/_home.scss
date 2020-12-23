@@ -254,6 +254,8 @@
     .card {
         height: 100%;
     }
+
+
 }
 
 
@@ -335,6 +337,10 @@
                 width: 60%;
                 list-style: none;
                 text-decoration: none;
+
+                @include respond(tab-port) {
+                    width: 90%;
+                }
             }
 
             &--li {

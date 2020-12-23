@@ -152,6 +152,10 @@ body {
 
         animation: moveDown .5s ease-in;
         animation-delay: 1s;
+
+        @include respond(tab-port) {
+            padding-bottom: 2rem;
+        }
     }
 
     &__head4 {

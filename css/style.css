@@ -208,6 +208,9 @@ body {
     padding-top: 1rem;
     animation: moveDown .5s ease-in;
     animation-delay: 1s; }
+    @media (max-width: 56.26em) {
+      .heading__head3 {
+        padding-bottom: 2rem; } }
   .heading__head4 {
     display: block;
     font-size: 3rem;
@@ -872,6 +875,9 @@ body {
         width: 60%;
         list-style: none;
         text-decoration: none; }
+        @media (max-width: 56.26em) {
+          .section__services--box-1--ul {
+            width: 90%; } }
       .section__services--box-1--li {
         padding: 1rem;
         font-size: 1.5rem;
