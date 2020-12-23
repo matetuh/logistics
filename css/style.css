@@ -740,7 +740,7 @@ body {
     color: #F1FAEE; }
     @media (max-width: 56.26em) {
       .section__about--box .col-1-of-4:first-child {
-        margin-top: 5rem; }
+        margin-top: 3rem; }
       .section__about--box .col-1-of-4:last-child {
         padding-bottom: 8rem; } }
     .section__about--box .ion-icon--box {
@@ -805,6 +805,8 @@ body {
     background-position: 0 0, 5rem 5rem;
     background-size: 5rem 5rem;
     opacity: .2; }
+  .section__main .card {
+    height: 100%; }
 
 .section__services {
   margin-top: 5rem;
@@ -839,7 +841,8 @@ body {
       @media (max-width: 56.26em) {
         .section__services--box-1 {
           width: 100%;
-          padding: 4rem; } }
+          padding: 4rem;
+          min-width: 0; } }
       .section__services--box-1--background-1 {
         position: absolute;
         top: 50%;
@@ -1130,7 +1133,7 @@ body {
   @media (max-width: 56.26em) {
     .contact-box {
       margin-top: 2rem;
-      width: 80%;
+      width: 90%;
       height: 100%; } }
   @media (max-width: 75em) {
     .contact-box {

@@ -157,12 +157,13 @@
 
         @include respond(tab-port) {
             .col-1-of-4:first-child {
-                margin-top: 5rem;
+                margin-top: 3rem;
             }
 
             .col-1-of-4:last-child {
                 padding-bottom: 8rem;
             }
+
         }
 
         .ion-icon--box {
@@ -173,6 +174,7 @@
 
             @include respond(tab-port) {
                 margin-top: .2rem;
+
             }
 
         }
@@ -249,6 +251,9 @@
         opacity: .2;
     }
 
+    .card {
+        height: 100%;
+    }
 }
 
 
@@ -292,6 +297,7 @@
             @include respond(tab-port) {
                 width: 100%;
                 padding: 4rem;
+                min-width: 0;
             }
 
 
@@ -712,7 +718,7 @@
 
     @include respond(tab-port) {
         margin-top: 2rem;
-        width: 80%;
+        width: 90%;
         height: 100%;
     }
 
