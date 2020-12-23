@@ -27,7 +27,6 @@ body {
 
 @media (max-width: 37.5em) {
   body, html {
-    overflow: hidden;
     position: relative; } }
 
 @keyframes spin {

@@ -34,7 +34,6 @@ body {
 
 body, html {
     @include respond(phone) {
-        overflow: hidden;
         position: relative;
     }
 }
