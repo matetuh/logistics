@@ -31,9 +31,3 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
-
-body, html {
-    @include respond(phone) {
-        position: relative;
-    }
-}
