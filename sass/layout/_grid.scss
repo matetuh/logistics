@@ -6,9 +6,13 @@
         margin-bottom: $gutter-vertical;
 
         @include respond(tab-land) {
-            margin-bottom: $gutter-vertical-big;
+            margin-bottom: $gutter-vertical-small;
         }
     } 
+
+    @include respond(tab-port) {
+        max-width: 80%;
+    }
 
     @include respond(tab-land) {
        max-width: 70%;

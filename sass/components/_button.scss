@@ -50,6 +50,10 @@
     &-small {
       border: none;
       width: 30%;
+
+      @include respond(phone) {
+        width: 50%;
+      }
     }
    
   }

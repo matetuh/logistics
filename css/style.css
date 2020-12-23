@@ -183,7 +183,7 @@ body {
     margin: 5rem auto; }
     @media (max-width: 37.5em) {
       .heading__head {
-        font-size: 5rem;
+        font-size: 4rem;
         letter-spacing: .75rem; } }
   .heading__head2 {
     text-align: center;
@@ -545,6 +545,9 @@ body {
   .btn-small {
     border: none;
     width: 30%; }
+    @media (max-width: 37.5em) {
+      .btn-small {
+        width: 50%; } }
 
 .card {
   position: relative;
@@ -586,7 +589,10 @@ body {
     margin-bottom: 8rem; }
     @media (max-width: 75em) {
       .row:not(:last-child) {
-        margin-bottom: 14rem; } }
+        margin-bottom: 6rem; } }
+  @media (max-width: 56.26em) {
+    .row {
+      max-width: 80%; } }
   @media (max-width: 75em) {
     .row {
       max-width: 70%; } }
@@ -911,7 +917,9 @@ body {
             */ }
       @media (max-width: 56.26em) {
         .section__services--box-2 {
-          width: 100%; } }
+          width: 100%;
+          padding: 4rem;
+          min-width: 0; } }
       .section__services--box-2--set {
         display: flex;
         flex-direction: column;
@@ -1107,7 +1115,7 @@ body {
         display: none; } }
   @media (max-width: 37.5em) {
     .section__contact-card {
-      height: 140vh; } }
+      height: 150vh; } }
 
 .contact-box {
   position: absolute;
@@ -1211,7 +1219,7 @@ body {
   align-items: center; }
   @media (max-width: 56.26em) {
     .section__nav {
-      padding-top: 8rem; } }
+      padding-top: 4rem; } }
   .section__nav-logo {
     margin: 3rem;
     width: 25rem;
@@ -1234,6 +1242,9 @@ body {
     color: #F1FAEE;
     text-transform: uppercase;
     letter-spacing: .5rem; }
+    @media (max-width: 56.26em) {
+      .section__nav-span {
+        text-align: center; } }
   @media (max-width: 56.26em) {
     .section__nav .header__scroll {
       margin-bottom: 2rem; } }
